@@ -1,4 +1,9 @@
-/*startregion utility*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .dis-inline-block{
     display: inline-block;
 }
@@ -319,4 +324,3 @@
 .pl-1{
     padding-left: 1rem;
 }
-/*endregion utility*/

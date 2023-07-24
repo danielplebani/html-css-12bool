@@ -133,9 +133,7 @@
 
 /*row*/
 .row{
-    height: 60px;
     display: flex;
-    margin-bottom: 4px;
 }
 
 
