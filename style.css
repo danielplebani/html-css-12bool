@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: xx-small;
+}
+
+
+:root{
+    --color-blue: #006cfa;
+    --color-green: #00e165;
+
+}
+
+/*startregion main*/
+h4{
+    color: black;
+}
+
+[class^="col-"] {
+    background-color: var(--color-blue);
+    height: 100%;
+    color: white;
+    margin-right: 4px;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.col{
+    background-color: var(--color-blue);
+}
+
+.row_with_card{
+    height: 100px;
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+[class^="nested-col-"] {
+    background-color: var(--color-green);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-right: 4px;
+}
+/*endregion main*/
