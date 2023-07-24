@@ -22,7 +22,7 @@ h4{
     margin-bottom: 4px;
 }
 
-[class^="col-"] {
+[class^="col-"], [class^="offset-col-"] {
     background-color: var(--color-blue);
     height: 100%;
     color: white;

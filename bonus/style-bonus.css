@@ -1,3 +1,30 @@
 /*startregion main*/
+.container{
+    aspect-ratio: 1 / 1;
+}
 
+.row{
+    height: calc(100% / 36);
+}
+
+.col-4>.col-1{
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.492);
+}
+
+.bc-green{
+    background-color: green;
+}
+
+.bc-violet{
+    background-color: violet;
+}
+
+.bc-pink{
+    background-color: pink;
+}
+
+.bc-darkolivegreen{
+    background-color: darkolivegreen;
+}
 /*endregion main*/
